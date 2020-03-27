@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="ChromeTest(failed)">
+    <parameter name="browsername" value="Chrome"/>
+    <parameter name="url" value="http://localhost/login.do"/>
+    <classes>
+      <class name="com.actitime.test.LoginPageTest">
+        <methods>
+          <include name="initilization"/>
+          <include name="tearDown"/>
+          <include name="verifyLogin"/>
+        </methods>
+      </class> <!-- com.actitime.test.LoginPageTest -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

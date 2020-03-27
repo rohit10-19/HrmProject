@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ 
+  
+  <test name="ChromeTest">
+  <parameter name="browsername" value="Chrome"/>
+  <parameter name="url" value="http://localhost/login.do"/>
+    <classes>
+      <class name="com.actitime.test.LoginPageTest"/>
+      
+    </classes>
+ </test> 
+</suite> <!-- Suite -->

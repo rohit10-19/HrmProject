@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11091" started-at="2020-03-26T09:54:15Z" finished-at="2020-03-26T09:54:26Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11091" started-at="2020-03-26T09:54:15Z" finished-at="2020-03-26T09:54:26Z">
+      <class name="Default.ActiTimeLogin">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Default.ActiTimeLogin@53b32d7]" name="setUp" is-config="true" duration-ms="9431" started-at="2020-03-26T09:54:15Z" finished-at="2020-03-26T09:54:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLogin()[pri:0, instance:Default.ActiTimeLogin@53b32d7]" name="verifyLogin" duration-ms="442" started-at="2020-03-26T09:54:25Z" finished-at="2020-03-26T09:54:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Default.ActiTimeLogin@53b32d7]" name="tearDown" is-config="true" duration-ms="1168" started-at="2020-03-26T09:54:25Z" finished-at="2020-03-26T09:54:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Default.ActiTimeLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,7 @@
+2020-03-26 17:17:35,549  INFO LoginPageTest.java [main] LoginPageTest:20 - Entering credentials
+2020-03-26 17:18:13,330  INFO LoginPageTest.java [main] LoginPageTest:27 - Print Text
+2020-03-26 17:18:13,364  INFO LoginPageTest.java [main] LoginPageTest:30 - Login sucessful
+2020-03-26 17:19:19,964  INFO Base.java [main] LoginPageTest:55 - Opening actitime application
+2020-03-26 17:19:20,447  INFO LoginPageTest.java [main] LoginPageTest:20 - Entering credentials
+2020-03-26 17:19:27,102  INFO LoginPageTest.java [main] LoginPageTest:27 - Print Text
+2020-03-26 17:19:27,106  INFO LoginPageTest.java [main] LoginPageTest:30 - Login sucessful
