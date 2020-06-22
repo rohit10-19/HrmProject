@@ -22,7 +22,7 @@
             <version>2.16</version>
             <configuration>
                 <suiteXmlFiles>
-                    <suiteXmlFile>E:\SeleniumFrameWorkplace\HRMProject\src\main\resources\testng.xml</suiteXmlFile>
+                    <suiteXmlFile>C:\Users\Rohit\git\HRMProject\src\main\resources\testng.xml</suiteXmlFile>
                 </suiteXmlFiles>
 
             </configuration>
