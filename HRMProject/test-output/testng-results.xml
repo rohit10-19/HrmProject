@@ -2,54 +2,36 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="89262" started-at="2020-06-18T12:15:12Z" finished-at="2020-06-18T12:16:42Z">
+  <suite name="Suite" duration-ms="62214" started-at="2020-06-22T07:24:24Z" finished-at="2020-06-22T07:25:26Z">
     <groups>
     </groups>
-    <test name="TestFirefox" duration-ms="54811" started-at="2020-06-18T12:15:12Z" finished-at="2020-06-18T12:16:07Z">
+    <test name="TestHRMApplication" duration-ms="62214" started-at="2020-06-22T07:24:24Z" finished-at="2020-06-22T07:25:26Z">
       <class name="com.orangehrm.test.LoginTest">
-        <test-method status="PASS" signature="browserselection(java.lang.String)[pri:0, instance:com.orangehrm.test.LoginTest@685cb137]" name="browserselection" is-config="true" duration-ms="39430" started-at="2020-06-18T12:15:12Z" finished-at="2020-06-18T12:15:52Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.orangehrm.test.LoginTest@5c3bd550]" name="setUp" is-config="true" duration-ms="36256" started-at="2020-06-22T07:24:24Z" finished-at="2020-06-22T07:25:00Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- browserselection -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.orangehrm.test.LoginTest@685cb137]" name="loginTest" duration-ms="6616" started-at="2020-06-18T12:15:52Z" finished-at="2020-06-18T12:15:58Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ValidateLoginPageTest()[pri:1, instance:com.orangehrm.test.LoginTest@5c3bd550]" name="ValidateLoginPageTest" duration-ms="66" started-at="2020-06-22T07:25:00Z" finished-at="2020-06-22T07:25:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateLoginPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangehrm.test.LoginTest@5c3bd550]" name="tearDown" is-config="true" duration-ms="2010" started-at="2020-06-22T07:25:00Z" finished-at="2020-06-22T07:25:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.orangehrm.test.LoginTest@5c3bd550]" name="setUp" is-config="true" duration-ms="16006" started-at="2020-06-22T07:25:02Z" finished-at="2020-06-22T07:25:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest()[pri:2, instance:com.orangehrm.test.LoginTest@5c3bd550]" name="loginTest" duration-ms="6958" started-at="2020-06-22T07:25:18Z" finished-at="2020-06-22T07:25:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangehrm.test.LoginTest@685cb137]" name="tearDown" is-config="true" duration-ms="8731" started-at="2020-06-18T12:15:58Z" finished-at="2020-06-18T12:16:07Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangehrm.test.LoginTest@5c3bd550]" name="tearDown" is-config="true" duration-ms="782" started-at="2020-06-22T07:25:25Z" finished-at="2020-06-22T07:25:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.orangehrm.test.LoginTest -->
-    </test> <!-- TestFirefox -->
-    <test name="TestChrome" duration-ms="34189" started-at="2020-06-18T12:16:07Z" finished-at="2020-06-18T12:16:42Z">
-      <class name="com.orangehrm.test.LoginTest">
-        <test-method status="PASS" signature="browserselection(java.lang.String)[pri:0, instance:com.orangehrm.test.LoginTest@402a079c]" name="browserselection" is-config="true" duration-ms="22896" started-at="2020-06-18T12:16:07Z" finished-at="2020-06-18T12:16:30Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserselection -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.orangehrm.test.LoginTest@402a079c]" name="loginTest" duration-ms="10993" started-at="2020-06-18T12:16:30Z" finished-at="2020-06-18T12:16:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangehrm.test.LoginTest@402a079c]" name="tearDown" is-config="true" duration-ms="280" started-at="2020-06-18T12:16:41Z" finished-at="2020-06-18T12:16:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.orangehrm.test.LoginTest -->
-    </test> <!-- TestChrome -->
+    </test> <!-- TestHRMApplication -->
   </suite> <!-- Suite -->
 </testng-results>

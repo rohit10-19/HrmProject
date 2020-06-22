@@ -9,13 +9,15 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 
+import com.orangehrm.utilities.PropertyFileHandle;
+
 public class Base 
 {
 	public static WebDriver driver;
-	@Parameters("browser")
-	@BeforeMethod
-	public void browserselection(String browser)
+	
+	public static void browserselection()
 	{
+		String browser=PropertyFileHandle.proprtyfilehandle("browser");
 		if(browser.equalsIgnoreCase("firefox"))
 		{
 			System.setProperty("webdriver.gecko.driver", "../HRMProject/exe/geckodriver.exe");
@@ -32,13 +34,10 @@ public class Base
 		}
 		
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		driver.get("https://opensource-demo.orangehrmlive.com/");
+		
 		driver.manage().window().maximize();
+		driver.get(PropertyFileHandle.proprtyfilehandle("url"));
 	}
-	@AfterMethod
-	public void tearDown()
-	{
-		driver.close();
-	}
+	
 
 }
