@@ -33,11 +33,12 @@ public class Login extends Base
 	}
 	
 	
-	public void loginCredentials(String un, String pd)
+	public OpenPIM loginCredentials(String un, String pd)
 	{
 		userid.sendKeys(un);
 		pwd.sendKeys(pd);
 		loginbutton.click();
+		return new OpenPIM();
 		
 	}
 	

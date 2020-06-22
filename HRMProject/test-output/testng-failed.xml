@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test thread-count="5" name="TestFirefox(failed)">
-    <parameter name="browser" value="firefox"/>
+  <listeners>
+    <listener class-name="com.orangehrm.utilities.CustomListner"/>
+  </listeners>
+  <test thread-count="5" name="TestHRMApplication(failed)">
     <classes>
-      <class name="com.orangehrm.test.LoginTest">
+      <class name="com.orangehrm.test.AddEmployeeTest">
         <methods>
-          <include name="loginTest"/>
+          <include name="setUp"/>
+          <include name="validateAddEmployeeTest"/>
           <include name="tearDown"/>
-          <include name="browserselection"/>
-          <include name="ValidateLoginPageTest"/>
         </methods>
-      </class> <!-- com.orangehrm.test.LoginTest -->
+      </class> <!-- com.orangehrm.test.AddEmployeeTest -->
     </classes>
-  </test> <!-- TestFirefox(failed) -->
+  </test> <!-- TestHRMApplication(failed) -->
 </suite> <!-- Failed suite [Suite] -->

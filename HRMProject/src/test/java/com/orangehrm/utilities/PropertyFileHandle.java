@@ -11,7 +11,7 @@ public class PropertyFileHandle
 		Properties pro=new Properties();
 		try 
 		{
-			pro.load(new FileInputStream("../HRMProject/hrm.properties"));
+			pro.load(new FileInputStream("../HRMProject/Utility/hrm.properties"));
 		} 
 		catch(Exception e) 
 		{
